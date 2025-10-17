@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body style="font-family: sans-serif; margin: 40px">
+    <h2>Convert DOCX → PDF</h2>
+    <form
+      id="uploadForm"
+      method="POST"
+      enctype="multipart/form-data"
+      action="http://localhost:3000/convert"
+    >
+      <input type="file" name="file" accept=".docx" required />
+      <button type="submit">Convert & Download PDF</button>
+    </form>
+  </body>
+</html>
